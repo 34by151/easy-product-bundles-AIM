@@ -326,9 +326,10 @@ When all sources are deselected their sum is 0. The bundle plugin enforces a min
 easy-product-bundles-for-woocommerce-aim/
 ├── easy-product-bundles-for-woocommerce-aim.php   # Plugin bootstrap & constants
 ├── src/
-│   ├── Plugin.php          # Singleton, wires Admin + Frontend
+│   ├── Plugin.php          # Singleton, wires Admin + Frontend + GitHubUpdater
 │   ├── Admin.php           # Product tab, panel, save hooks, auto-enforcement
-│   └── Frontend.php        # Filter hooks, script/style enqueue, CSS injection
+│   ├── Frontend.php        # Filter hooks, script/style enqueue, CSS injection
+│   └── GitHubUpdater.php   # GitHub Releases auto-updater (hooks into WP update system)
 └── assets/
     ├── aim-admin.css        # Admin panel styles
     ├── aim-admin.js         # Admin panel UI (item pickers, link management)
@@ -339,6 +340,13 @@ easy-product-bundles-for-woocommerce-aim/
 ---
 
 ## Changelog
+
+### 1.2.0
+
+- **GitHub auto-updater:** added `GitHubUpdater` class (`src/GitHubUpdater.php`). Hooks into the WordPress native plugin update system via `pre_set_site_transient_update_plugins`, `plugins_api`, and `upgrader_post_install`. Checks the GitHub Releases API (`/releases/latest`) for a newer tag, injects update data so the standard WordPress *Update now* button appears, populates the *View details* modal with version info and changelog (from the release body), and renames the extracted zip folder to the correct plugin slug after installation. Release data is cached as a transient for 12 hours (5 minutes on failure) to avoid hammering the API. To publish a new version: push code to GitHub and create a release tagged `vX.Y.Z`.
+- **Plugin description — author:** `Author` header changed from `AIM` to `ArtInMetal.com.au`; `Author URI` set to `https://artinmetal.com.au`. WordPress displays this as a linked *By ArtInMetal.com.au* in the plugins list.
+- **Plugin description — View details link:** `Plugin URI` set to `https://github.com/34by151/easy-product-bundles-AIM`. A *View details* link is added to the plugin row meta via `plugin_row_meta`; clicking it opens the standard WordPress plugin-information modal populated by `plugins_api` (shows description and changelog from the latest GitHub release).
+- **Version bump:** `1.1.8` → `1.2.0`.
 
 ### 1.1.8
 
