@@ -1,4 +1,4 @@
-[![Buy Me A Coffee](https://cdn.buymeacoffee.com/buttons/default-orange.png)](https://buymeacoffee.com/34by151)
+[![Buy Me A Coffee](https://cdn.buymeacoffee.com/buttons/default-orange.png)](https://buymeacoffee.com/artinmetal.com.au)
 
 # Easy Product Bundles for WooCommerce — AIM
 
