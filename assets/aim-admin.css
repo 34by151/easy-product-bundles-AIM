@@ -1,0 +1,290 @@
+/* ==========================================================================
+   AIM Bundle Extensions — Admin Styles
+   ========================================================================== */
+
+/* Section headings inside the Bundle AIM panel */
+#epb_aim_product_data .epb-aim-section-title {
+	padding: 12px 12px 4px;
+	margin: 0;
+	font-size: 13px;
+	font-weight: 600;
+	color: #1e1e1e;
+	border-top: 1px solid #f0f0f0;
+}
+
+#epb_aim_product_data .options_group:first-child .epb-aim-section-title {
+	border-top: none;
+}
+
+/* Descriptive text below section headings */
+#epb_aim_product_data .epb-aim-section-desc {
+	padding: 0 12px 8px;
+	margin: 0;
+	font-size: 12px;
+	color: #646970;
+	line-height: 1.6;
+}
+
+/* Inline description below the hide-qty checkbox */
+#epb_aim_product_data .description {
+	display: block;
+	margin: 4px 0 0 20px;
+	font-size: 12px;
+	color: #646970;
+	font-style: italic;
+}
+
+/* No-items placeholder */
+.epb-aim-no-items {
+	padding: 0 12px 12px;
+	margin: 0;
+	color: #646970;
+	font-style: italic;
+}
+
+/* ── Per-item settings table (Feature 3: show-qty overrides) ─────────────── */
+
+.aim-item-settings-wrap {
+	padding: 0 12px 12px;
+}
+
+.aim-item-settings-table {
+	border-collapse: collapse;
+	margin-bottom: 6px;
+	width: 100%;
+}
+
+.aim-item-settings-table th,
+.aim-item-settings-table td {
+	padding: 7px 10px;
+	text-align: left;
+	vertical-align: middle;
+	border: 1px solid #dcdcde;
+	font-size: 13px;
+}
+
+.aim-item-settings-table thead th {
+	font-weight: 600;
+	background: #f6f7f7;
+	font-size: 12px;
+}
+
+.aim-item-settings-table .aim-center-cell {
+	text-align: center;
+	width: 160px;
+}
+
+/* Small hint text inside table header */
+.aim-col-hint {
+	font-weight: normal;
+	font-size: 11px;
+	color: #646970;
+}
+
+/* ── Qty / Max links tables (Features 2 & 4) ─────────────────────────────── */
+
+#aim-qty-links-wrap,
+#aim-max-links-wrap {
+	padding: 0 12px 12px;
+}
+
+.aim-links-table {
+	border-collapse: collapse;
+	margin-bottom: 10px;
+	width: 100%;
+}
+
+.aim-links-table th,
+.aim-links-table td {
+	padding: 7px 10px;
+	text-align: left;
+	vertical-align: middle;
+	border: 1px solid #dcdcde;
+	font-size: 13px;
+}
+
+.aim-links-table thead th {
+	font-weight: 600;
+	background: #f6f7f7;
+	font-size: 12px;
+}
+
+/* Narrow remove column */
+.aim-links-table .aim-col-remove,
+.aim-links-table th.aim-col-remove {
+	width: 70px;
+	text-align: center;
+}
+
+/* Selects fill their cells */
+.aim-links-table .aim-target-sel,
+.aim-links-table .aim-source-sel {
+	width: 100%;
+	box-sizing: border-box;
+}
+
+/* Give the multi-select a fixed height so a few options are always visible */
+.aim-links-table .aim-source-sel {
+	min-height: 64px;
+}
+
+/* Remove button */
+.aim-remove-btn {
+	padding: 2px 8px !important;
+	min-height: auto !important;
+	line-height: 1.7 !important;
+	font-size: 12px !important;
+}
+
+/* "Add" button spacing */
+#aim-add-qty-link,
+#aim-add-max-link {
+	margin-top: 6px;
+}
+
+/* Max quantity message / Bundle qty message / No selection message —
+   shared layout: checkbox + text field side by side                        */
+.aim-max-msg-field,
+.aim-bundle-qty-msg-field,
+.aim-no-selection-msg-field {
+	padding: 8px 12px 4px;
+	margin: 0;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 6px 10px;
+}
+
+.aim-max-msg-field .aim-max-msg-enable-label,
+.aim-bundle-qty-msg-field .aim-max-msg-enable-label,
+.aim-no-selection-msg-field .aim-max-msg-enable-label {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+	font-weight: 600;
+	white-space: nowrap;
+	width: auto;
+}
+
+.aim-max-msg-field input[type="text"],
+.aim-bundle-qty-msg-field input[type="text"],
+.aim-no-selection-msg-field input[type="text"] {
+	flex: 1;
+	min-width: 200px;
+	max-width: 480px;
+}
+
+.aim-max-msg-field .description,
+.aim-bundle-qty-msg-field .description,
+.aim-no-selection-msg-field .description {
+	flex-basis: 100%;
+	margin: 0;
+}
+
+/* Feature 9 sub-field (+/- Button Size) —
+   indented beneath the "Use +/- buttons" checkbox.                           */
+#epb_aim_product_data .aim-qty-pm-sub-field {
+	padding-left: 28px;
+	border-left: 2px solid #e0e0e0;
+	margin-left: 12px;
+}
+
+#epb_aim_product_data .aim-qty-pm-sub-field label {
+	font-weight: 600;
+	min-width: 160px;
+	display: inline-block;
+}
+
+#epb_aim_product_data .aim-qty-pm-sub-field input[type="number"] {
+	width: 70px;
+}
+
+/* Feature 7 sub-fields (Each Bundle Message / Bundle Total Message) —
+   indented to signal they belong to the "Show qty × unit price total"
+   checkbox directly above them.                                             */
+#epb_aim_product_data .aim-qty-total-sub-field {
+	padding-left: 28px;
+	border-left: 2px solid #e0e0e0;
+	margin-left: 12px;
+}
+
+#epb_aim_product_data .aim-qty-total-sub-field label {
+	font-weight: 600;
+	min-width: 160px;
+	display: inline-block;
+}
+
+#epb_aim_product_data .aim-qty-total-sub-field input[type="text"] {
+	max-width: 320px;
+}
+
+/* ── Feature 8: Image Swap Rules ─────────────────────────────────────────── */
+
+/* Scope column — fixed narrow width */
+#epb_aim_product_data th.aim-col-scope,
+#epb_aim_product_data .aim-swap-scope-cell {
+	width: 160px;
+}
+
+#epb_aim_product_data .aim-swap-scope-cell select.aim-swap-scope-sel {
+	width: 100%;
+}
+
+/* Checkbox + qty list for optional items */
+#epb_aim_product_data .aim-swap-optional-list {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+	min-width: 200px;
+}
+
+#epb_aim_product_data .aim-swap-opt-item {
+	display: flex;
+	align-items: center;
+	gap: 6px;
+	white-space: nowrap;
+}
+
+#epb_aim_product_data .aim-swap-opt-item .aim-swap-opt-check {
+	flex-shrink: 0;
+	margin: 0;
+}
+
+#epb_aim_product_data .aim-swap-opt-item .aim-swap-opt-label {
+	flex: 1;
+	font-size: 13px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+#epb_aim_product_data .aim-swap-opt-item .aim-swap-opt-qty {
+	width: 58px;
+	text-align: center;
+	font-size: 12px;
+}
+
+#epb_aim_product_data .aim-swap-opt-item .aim-swap-opt-qty.aim-swap-opt-qty-disabled {
+	opacity: 0.35;
+}
+
+/* Thumbnail preview */
+#epb_aim_product_data .aim-swap-image-cell img.aim-swap-preview {
+	display: block;
+	max-width: 72px;
+	max-height: 72px;
+	margin-bottom: 6px;
+	border: 1px solid #ddd;
+	border-radius: 2px;
+}
+
+/* Stack choose-button and remove link vertically */
+#epb_aim_product_data .aim-swap-image-cell .aim-swap-choose-btn {
+	display: block;
+	margin-bottom: 4px;
+}
+
+#epb_aim_product_data .aim-swap-image-cell .aim-swap-remove-img {
+	display: block;
+	color: #cc1818;
+	font-size: 12px;
+}

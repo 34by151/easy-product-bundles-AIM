@@ -1,0 +1,70 @@
+/* ==========================================================================
+   AIM Bundle Extensions — Frontend Styles
+   ========================================================================== */
+
+/* Row container that holds BOTH the qty-wrapper and the submit button.
+   Using our own flex row here means the theme's flex-direction / order
+   rules on form.cart cannot affect the internal order of these two items. */
+.epb-aim-form-row {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 8px;
+}
+
+/* Bundle Qty Message — wrapper creates its own inline-flex row so the
+   label always precedes the qty input.                                      */
+.epb-aim-qty-wrapper {
+	display: inline-flex;
+	align-items: center;
+	gap: 6px;
+}
+
+/* The text label itself */
+.epb-aim-qty-label {
+	white-space: nowrap;
+}
+
+/* Max quantity message — injected as a sibling after each Feature 4 item's
+   .asnp-bundleListItem-product-detail element.                              */
+.epb-aim-max-msg {
+	font-size: 12px;
+	color: #646970;
+	margin: 4px 0 0;
+	padding: 2px 4px;
+	font-style: italic;
+	line-height: 1.4;
+}
+
+/* Feature 9: Bundle Qty +/- Buttons
+   Make the .quantity wrapper a flex row so the − input + buttons sit in line. */
+.quantity.epb-aim-qty-pm-active {
+	display: flex !important;
+	align-items: center;
+	gap: 0;
+}
+
+/* Hide the native browser spin arrows on the qty input when +/- buttons are active. */
+.quantity.epb-aim-qty-pm-active input[type="number"] {
+	-webkit-appearance: textfield;
+	-moz-appearance: textfield;
+	appearance: textfield;
+	text-align: center;
+}
+.quantity.epb-aim-qty-pm-active input[type="number"]::-webkit-outer-spin-button,
+.quantity.epb-aim-qty-pm-active input[type="number"]::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+/* Feature 7: Qty × Unit Price rows — injected inside .asnp-totalPrice-wrapper.
+   Each row takes a full-width flex line (flex:0 0 100%) so it wraps below the
+   existing unit-price row, then internally replicates the label-left /
+   value-right layout of the native title + section pair.                    */
+.epb-aim-price-row {
+	flex: 0 0 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
