@@ -1,6 +1,7 @@
 # Easy Product Bundles for WooCommerce — AIM
 
-An extension plugin for **Easy Product Bundles for WooCommerce** (base) and its **Pro** add-on. Adds eleven features for fine-grained control over bundle item quantities, display, and images.
+An extension plugin for **Easy Product Bundles for WooCommerce** (base) and its **Pro** add-on. 
+Adds eleven features for fine-grained control over bundle item quantities, display, and images.
 All controls are per Bundle and accessed from the bundled product (Product Bundles AIM tab) 
 ---
 
