@@ -1,5 +1,3 @@
-[![Buy Me A Coffee](https://cdn.buymeacoffee.com/buttons/default-orange.png)](https://buymeacoffee.com/artinmetal.com.au)
-
 # Easy Product Bundles for WooCommerce — AIM
 
 An extension for **Easy Product Bundles for WooCommerce** (base) and its **Pro** add-on. Adds eleven features that give you precise control over how your product bundles look and behave on the product page — from hiding or linking item quantities, to customising messages, live price totals, image swaps, and layout adjustments. All settings are configured per bundle, directly inside the product editor under the **Product Bundles AIM** tab.
@@ -7,6 +5,7 @@ An extension for **Easy Product Bundles for WooCommerce** (base) and its **Pro**
 Built by [ArtInMetal.com.au](https://artinmetal.com.au) — [View on GitHub](https://github.com/34by151/easy-product-bundles-AIM)
 
 ---
+If you use this plugin I would appreciate it if add a backlink to my site or buy me a coffee
 
 ## Requirements
 
