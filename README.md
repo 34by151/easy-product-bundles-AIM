@@ -5,7 +5,7 @@ An extension for **Easy Product Bundles for WooCommerce** (base) and its **Pro**
 Built by [ArtInMetal.com.au](https://artinmetal.com.au) — [View on GitHub](https://github.com/34by151/easy-product-bundles-AIM)
 
 ---
-If you use this plugin I would appreciate it if [add a backlink to my site](https://artinmetal.com.au) or [![Buy Me A Coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com)
+If you use this plugin I would appreciate it if [add a backlink to my site](https://artinmetal.com.au) or [![Buy Me A Coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](buymeacoffee.com/artinmetal.com.au)
 
 
 
