@@ -1,3 +1,5 @@
+[![Buy Me A Coffee](https://cdn.buymeacoffee.com/buttons/default-orange.png)](https://buymeacoffee.com)
+
 # Easy Product Bundles for WooCommerce — AIM
 
 An extension for **Easy Product Bundles for WooCommerce** (base) and its **Pro** add-on. Adds eleven features that give you precise control over how your product bundles look and behave on the product page — from hiding or linking item quantities, to customising messages, live price totals, image swaps, and layout adjustments. All settings are configured per bundle, directly inside the product editor under the **Product Bundles AIM** tab.
