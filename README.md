@@ -3,6 +3,7 @@
 An extension for **Easy Product Bundles for WooCommerce** (base) and its **Pro** add-on. Adds eleven features that give you precise control over how your product bundles look and behave on the product page — from hiding or linking item quantities, to customising messages, live price totals, image swaps, and layout adjustments. All settings are configured per bundle, directly inside the product editor under the **Product Bundles AIM** tab.
 
 Built by [ArtInMetal.com.au](https://artinmetal.com.au) — [View on GitHub](https://github.com/34by151/easy-product-bundles-AIM)
+
 [See an example on my website](https://artinmetal.com.au/product/rops-mount-large)
 
 ---
