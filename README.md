@@ -4,7 +4,7 @@ An extension for **Easy Product Bundles for WooCommerce** (base) and its **Pro**
 
 Adds eleven features that give you precise control over how your product bundles look and behave on the product page — from hiding or linking item quantities, to customising messages, live price totals, image swaps, and layout adjustments. 
 
-The dramatic feature is “Image Swaps” that changes your main gallery image and or a bundle image using the options selected in the bundle 
+The dramatic feature is the “Image Swap” which changes your main gallery image and/or a bundle image using the options selected in the bundle 
 [See an example on my website](https://artinmetal.com.au/product/rops-mount-large)
 
 All settings are configured per bundle, directly inside the product editor under the **Product Bundles AIM** tab.
