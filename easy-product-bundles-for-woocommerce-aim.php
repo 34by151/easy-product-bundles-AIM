@@ -2,8 +2,10 @@
 /**
  * Plugin Name: Easy Product Bundles for WooCommerce - AIM
  * Description: Extends Easy Product Bundles for WooCommerce Pro with additional features: hide bundle item quantity controls and dynamic quantity linking between bundle items.
- * Version:     1.1.8
- * Author:      AIM
+ * Version:     1.2.0
+ * Author:      ArtInMetal.com.au
+ * Author URI:  https://artinmetal.com.au
+ * Plugin URI:  https://github.com/34by151/easy-product-bundles-AIM
  * Text Domain: epb-aim
  * Domain Path: /languages
  * Requires at least: 6.0
@@ -16,7 +18,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'EPB_AIM_VERSION', '1.1.8' );
+define( 'EPB_AIM_VERSION', '1.2.0' );
 define( 'EPB_AIM_PLUGIN_FILE', __FILE__ );
 define( 'EPB_AIM_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
 define( 'EPB_AIM_PLUGIN_URL', plugin_dir_url( __FILE__ ) );
