@@ -47,23 +47,9 @@ class Plugin {
 					return $links;
 				}
 
-				$slug        = dirname( plugin_basename( EPB_AIM_PLUGIN_FILE ) );
-				$details_url = add_query_arg(
-					[
-						'tab'       => 'plugin-information',
-						'plugin'    => $slug,
-						'section'   => 'description',
-						'TB_iframe' => 'true',
-						'width'     => 600,
-						'height'    => 550,
-					],
-					admin_url( 'plugin-install.php' )
-				);
-
 				$links[] = sprintf(
-					'<a href="%s" class="thickbox open-plugin-details-modal" aria-label="%s">%s</a>',
-					esc_url( $details_url ),
-					esc_attr__( 'More information about Easy Product Bundles for WooCommerce - AIM', 'epb-aim' ),
+					'<a href="%s" target="_blank" rel="noopener noreferrer">%s</a>',
+					'https://github.com/34by151/easy-product-bundles-AIM',
 					esc_html__( 'View details', 'epb-aim' )
 				);
 
